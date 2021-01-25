@@ -1,6 +1,6 @@
 pipeline {
 
-  agent { label 'kubepod' }
+  agent { label 'Terraform' }
   environment {
     SECRET_KEY = credentials('secret-key')
   }
