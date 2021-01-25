@@ -1,6 +1,6 @@
 pipeline {
 
-  agent { label 'Terraform' }
+  agent { label 'terraform' }
   environment {
     SECRET_KEY = credentials('secret-key')
   }
